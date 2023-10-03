@@ -1,0 +1,172 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image or color that represents both regions */
+body {
+    background-color: #f4f4f4; /* Light Gray */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333; /* Dark Gray */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Highlight the active link based on scroll position */
+nav a.active {
+    color: #c21807; /* Dark Red */
+    background-color: #ffc107; /* Yellow */
+    border: 2px solid #c21807; /* Dark Red border */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #4a90e2; /* Pacific Blue on hover */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Increased margin for spacing */
+    color: #333;
+}
+
+/* About section styles */
+#about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align content */
+}
+
+/* Avatar styles */
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #4a90e2;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Work section styles */
+#work {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px; /* Increased margin to push "My Work" down */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h2 {
+    font-size: 24px; /* Reduced font size for "My Work" header */
+    margin-bottom: 20px; /* Added margin to separate header from work items */
+}
+
+.work-item {
+    margin-bottom: 40px; /* Increased margin for spacing */
+}
+
+.work-item img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.work-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.work-item a {
+    text-decoration: none;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.work-item a:hover {
+    background-color: #357abd;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align content */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333; /* Dark Gray */
+    color: #fff;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    /* Adjust other styles for smaller screens */
+}
